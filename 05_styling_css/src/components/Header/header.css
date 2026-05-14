@@ -1,0 +1,16 @@
+.header{
+    background-color: rgb(86, 219, 201);
+    color:rgb(10, 1, 1);
+    padding: 10px 20px;
+    font-size: 24px;
+    font-weight: bold;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn1{
+    background-color: green;
+    color:white; 
+    padding:10px 20px;
+    border-radius:10px;
+}
