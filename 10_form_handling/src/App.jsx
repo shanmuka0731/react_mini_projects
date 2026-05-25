@@ -2,14 +2,13 @@ import React from 'react'
 
 const App = () => {
   
+  //elem is used as the middleman
   const onSubmitHandler=(elem)=>{
     elem.preventDefault() // used to prevent the default behaviour of the form which is to refresh the page
     console.log("HI FRIENDS")
 
   }
-
-
-  return(
+   return(
     <div >
       <form className="hello" onSubmit={
       (elem)=>{
