@@ -16,9 +16,7 @@ const App = () => {
       onSubmitHandler(elem)
     }
       }>
-      <input onChange={(elem)=>{
-        console.log(elem.target.value)
-      }} className="hello2" type="text" placeholder="Enter the Input"/>
+      <input className="hello2" type="text" placeholder="Enter the Input"/>
       <button>Submit</button>
       </form>
     </div>
