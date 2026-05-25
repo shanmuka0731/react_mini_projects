@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+.hello{
+  padding:100px;
+}
+.hello2{
+  padding:10px 20px;
+  background-color: #f0f0f0;
+  border:1px solid;
+}
+button{
+  margin-left:10px;
+  padding:10px 20px;
+}
