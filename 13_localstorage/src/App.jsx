@@ -14,18 +14,21 @@ const App = () => {
       localStorage.removeItem('user','bob')        
      */}
       
-    // setting an array in local storage
+    // setting an obj in local storage
     const user={
       username:"shanmuka",
       age:19,
       address:"vizag"
     }
     
+    // for setting an obj in the local storage
     localStorage.setItem('user',JSON.stringify(user))
     
+    //for displaying the item in the string format  
     const op= localStorage.getItem('user')
     console.log(op);
     
+    //for displaying the item in object format(nrml form).
     const op1= JSON.parse(localStorage.getItem('user'))
     console.log(op1);
     
