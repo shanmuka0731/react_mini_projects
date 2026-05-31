@@ -10,7 +10,7 @@ const App = () => {
   useEffect(() => {
     console.log("Hi Guys UseEffect is working");
     
-  }, [num])
+  }, [num]) //runs when num obj changes 
   
   return (
     <div>
